@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/d"
+        android:layout_width="435dp"
+        android:layout_height="246dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/dd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="125dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/as"
+        app:civ_border_color="#168600"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:text="Singpor"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+
+        android:layout_width="381dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.063">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#168600"
+            android:gravity="center"
+            android:text="Camera"
+            android:textColor="#F1EBEB"
+            android:textColorHighlight="#00F0EDED"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textNoSuggestions|textWebEmailAddress"
+            android:text="Lica /48/4"
+            android:textColorHighlight="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="381dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#168600"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="#F1EBEB"
+            android:textColorHighlight="#00F0EDED"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textNoSuggestions|textWebEmailAddress"
+            android:text="Lica /48/4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="381dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="16dp"
+        android:maxLength="444"
+        android:text='The English name of Singapore is an anglicisation of the native Malay name for the country, Singapura, which was in turn derived from the Sanskrit word for lion city (romanised: Siṃhapura; Brahmi: 𑀲𑀺𑀁𑀳𑀧𑀼𑀭; literally "lion city"; siṃha means "lion", pura means "city" or "fortress").[10] A Chinese account from the third century referred to a place as Pú Luó Zhōng (Chinese: 蒲羅中), which sounds like Malay for "island at the end of a peninsula".[11] Early references to the name Temasek (or Tumasik) are found in the Nagarakretagama, a Javanese epic poem written in 1365vThe English name of Singapore is an anglicisation of the native Malay name for the country, Singapura, which was in turn derived from the Sanskrit word for lion city (romanised: Siṃhapura; Brahmi: 𑀲𑀺𑀁𑀳𑀧𑀼𑀭; literally "lion city"; siṃha means "lion", pura means "city" or "fortress").[10] A Chinese account from the third century referred to a place as Pú Luó Zhōng (Chinese: 蒲羅中), which sounds like Malay for "island at the end of a peninsula".[11] Early references to the name Temasek (or Tumasik) are found in the Nagarakretagama, a Javanese epic poem written in 1365'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_weight="1"
+        android:background="@drawable/button2"
+        android:gravity="center"
+        android:text="DISCARD"
+        android:textColor="#168600"
+        android:textColorHighlight="#00F0EDED"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_weight="1"
+        android:background="@drawable/button2"
+        android:gravity="center"
+        android:text="UPLOUD"
+        android:textColor="#168600"
+        android:textColorHighlight="#00F0EDED"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
